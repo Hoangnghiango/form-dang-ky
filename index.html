@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        label{
+            color:black;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+            background-color: aqua;
+
+        }
+        input{
+            border: 1px solid pink;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <form action="http://demo.codegym.vn/6/registration_form/register.php" method="post">
+        <label for="hoten">Ho Ten</label> <br><br>
+        <input type="text" name="hoten"> <br><br>
+        <label for="email">Email</label><br><br>
+        <input type="text" name= "email"><br><br>
+        <label for="phone">So Dien Thoai</label><br><br>
+        <input type="text" name="phone"><br><br>
+        <label for="gender">Gioi tinh</label><br><br>
+        <input type="radio" name="gender" value="nam"> <label for="gender">Nam</label>
+        <input type="radio" name="gender" value="nu"> <label for="gender">Nu</label>
+        <br><br><br>
+        <input type="submit" value="Dang Ky">
+    </form>
+</body>
+</html>
